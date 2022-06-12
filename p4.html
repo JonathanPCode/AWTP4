@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>P4 Webworkers</title>
+        <link rel="stylesheet" href="p4.css">
+        <script src="p4.js"></script>
+    </head>
+    <body>
+        <h3>JDP: P4</h3>
+        <section id="formbox">
+            <form name="form">
+                <label for="numThreads">Numthreads: </label><br>
+                <input type="number" min="1" max="4" name="numThreads" id="numThreads"><br>
+                <label for="lowRange">LowInt: </label><br>
+                <input type="number" name="lowRange" id="lowRange"><br>
+                <label for="highRange">HighInt: </label><br>
+                <input type="number" name="highRange" id="highRange"><br>
+                <button type="button" id="button">Send</button>
+            </form>
+        </section>
+        <section id="databox">
+        </section>
+    </body>
+</html>
